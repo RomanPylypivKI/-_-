@@ -1,4 +1,4 @@
-﻿#include <iostream>
+#include <iostream>
 #include <fstream>
 #include <string>
 #include <iomanip>
@@ -440,14 +440,6 @@ public:
 			cout << "# " << setw(78) << "Delete data - press '5'" << " #" << endl; //Видалити інформацію
 		cout << "# " << setw(78) << "Back - press 'b'" << " #" << endl; //Повернутися до попереднього меню
 		cout << "# " << setw(78) << "Quit - press 'q'" << " #" << endl; //Вихід з програми кнопкою 'q'
-		cout << "#================================================================================#" << endl << endl;
-	}////
-	void shop_Menu(string dirName)
-	{
-		system("cls"); //Очистити екран
-		cout << left;
-		cout << "#================================================================================#" << endl;
-		cout << "# Ice cream production management ->" << dirName << setw(32) << " : " << "#" << endl;
 		cout << "#================================================================================#" << endl << endl;
 	}////
 	int Main()
